@@ -7,7 +7,7 @@
 
 Aplikasi web untuk mendeteksi apakah sebuah pesan email/SMS termasuk **spam** atau **bukan spam (ham)** menggunakan algoritma Machine Learning. Dibangun sebagai project portofolio untuk membuktikan kemampuan end-to-end ML pipeline.
 
-🔗 **Live Demo:** [spam-detector.streamlit.app](https://spam-detector-s4nd1.streamlit.app/) ← ganti dengan link aslimu
+🔗 **Live Demo:** [spam-detector.streamlit.app](https://spam-detector-s4nd1.streamlit.app/) 
 
 ---
 
