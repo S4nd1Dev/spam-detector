@@ -7,13 +7,13 @@
 
 Aplikasi web untuk mendeteksi apakah sebuah pesan email/SMS termasuk **spam** atau **bukan spam (ham)** menggunakan algoritma Machine Learning. Dibangun sebagai project portofolio untuk membuktikan kemampuan end-to-end ML pipeline.
 
-🔗 **Live Demo:** [spam-detector.streamlit.app](https://spam-detector.streamlit.app) ← ganti dengan link aslimu
+🔗 **Live Demo:** [spam-detector.streamlit.app](https://spam-detector-s4nd1.streamlit.app/) ← ganti dengan link aslimu
 
 ---
 
 ## 📸 Screenshot
 
-> *(Tambahkan screenshot aplikasi kamu di sini)*
+> _(Tambahkan screenshot aplikasi kamu di sini)_
 > Caranya: jalankan app → screenshot → simpan sebagai `screenshot.png` di folder `assets/` → uncomment baris di bawah ini
 
 <!-- ![App Screenshot](assets/screenshot.png) -->
@@ -25,6 +25,7 @@ Aplikasi web untuk mendeteksi apakah sebuah pesan email/SMS termasuk **spam** at
 Project ini membangun model klasifikasi teks untuk mendeteksi spam menggunakan dataset **SMS Spam Collection** dari UCI Machine Learning Repository. Mencakup seluruh pipeline ML dari eksplorasi data hingga deployment aplikasi web.
 
 **Highlights:**
+
 - Membandingkan **5 algoritma ML** sekaligus untuk mencari model terbaik
 - Mencapai akurasi hingga **98%+** pada data testing
 - Dilengkapi antarmuka web interaktif yang bisa diakses publik
@@ -33,29 +34,29 @@ Project ini membangun model klasifikasi teks untuk mendeteksi spam menggunakan d
 
 ## 📊 Hasil Perbandingan Model
 
-| Model | Accuracy | Precision | Recall | F1-Score |
-|---|---|---|---|---|
-| Naive Bayes | ~98% | ~97% | ~95% | ~96% |
-| Logistic Regression | ~98% | ~98% | ~94% | ~96% |
-| **SVM** | **~99%** | **~99%** | **~97%** | **~98%** |
-| Random Forest | ~97% | ~100% | ~88% | ~93% |
-| KNN | ~93% | ~100% | ~65% | ~79% |
+| Model               | Accuracy | Precision | Recall   | F1-Score |
+| ------------------- | -------- | --------- | -------- | -------- |
+| Naive Bayes         | ~98%     | ~97%      | ~95%     | ~96%     |
+| Logistic Regression | ~98%     | ~98%      | ~94%     | ~96%     |
+| **SVM**             | **~99%** | **~99%**  | **~97%** | **~98%** |
+| Random Forest       | ~97%     | ~100%     | ~88%     | ~93%     |
+| KNN                 | ~93%     | ~100%     | ~65%     | ~79%     |
 
-> *Hasil aktual bisa berbeda sedikit tergantung random state. Update tabel ini sesuai hasil notebook kamu.*
+> _Hasil aktual bisa berbeda sedikit tergantung random state. Update tabel ini sesuai hasil notebook kamu._
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Kategori | Tools |
-|---|---|
-| Language | Python 3.12 |
-| ML Framework | Scikit-Learn |
-| NLP | NLTK, TF-IDF Vectorizer |
-| Data Processing | Pandas, NumPy |
-| Visualization | Matplotlib, Seaborn, WordCloud |
-| Web App | Streamlit |
-| Model Saving | Joblib |
+| Kategori        | Tools                          |
+| --------------- | ------------------------------ |
+| Language        | Python 3.12                    |
+| ML Framework    | Scikit-Learn                   |
+| NLP             | NLTK, TF-IDF Vectorizer        |
+| Data Processing | Pandas, NumPy                  |
+| Visualization   | Matplotlib, Seaborn, WordCloud |
+| Web App         | Streamlit                      |
+| Model Saving    | Joblib                         |
 
 ---
 
@@ -80,22 +81,26 @@ spam-detector/
 ## ⚙️ Cara Menjalankan Secara Lokal
 
 **1. Clone repository**
+
 ```bash
 git clone https://github.com/S4nd1Dev/spam-detector.git
 cd spam-detector
 ```
 
 **2. Install dependencies**
+
 ```bash
 pip install -r requirements.txt
 ```
 
 **3. Jalankan aplikasi**
+
 ```bash
 streamlit run app.py
 ```
 
 **4. Buka di browser**
+
 ```
 http://localhost:8501
 ```
