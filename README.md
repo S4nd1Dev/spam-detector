@@ -13,10 +13,7 @@ Aplikasi web untuk mendeteksi apakah sebuah pesan email/SMS termasuk **spam** at
 
 ## 📸 Screenshot
 
-> _(Tambahkan screenshot aplikasi kamu di sini)_
-> Caranya: jalankan app → screenshot → simpan sebagai `screenshot.png` di folder `assets/` → uncomment baris di bawah ini
-
-<!-- ![App Screenshot](assets/screenshot.png) -->
+![App Screenshot](assets/image.png)
 
 ---
 
